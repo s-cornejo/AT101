@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("p").click(changePartStyle);
+    $("p").hover(changePartStyle);
 
     function changePartStyle() {
         $(this).toggleClass("clicked");
