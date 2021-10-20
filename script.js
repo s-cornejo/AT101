@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("p").click(channgePartStyle);
+    $("p").click(changePartStyle);
 
     function changePartStyle() {
         $(this).addClass("clicked");
