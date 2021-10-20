@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $("p").hover(changePartStyle);
+    $("p").click(changePartStyle);
 
     function changePartStyle() {
-        $(this).toggleClass("clicked");
+        $(this).addClass("clicked");
     }
-})
+});
